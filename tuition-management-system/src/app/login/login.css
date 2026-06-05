@@ -1,0 +1,40 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f5f7fa;
+}
+
+.login-card {
+  width: 400px;
+  padding: 20px;
+}
+
+.full-width {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.forgot-link {
+  text-decoration: none;
+  color: #1976d2;
+}
+
+.login-button {
+  height: 48px;
+}
+
+.footer-text {
+  text-align: center;
+  margin: 16px 0;
+  color: #666;
+  font-size: 0.9rem;
+}

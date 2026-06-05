@@ -1,0 +1,42 @@
+.college-header {
+  background-color: #2e7d32;
+  color: white;
+  padding: 16px 32px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo-placeholder {
+  width: 60px;
+  height: 60px;
+  border: 2px dashed white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.college-info h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.college-info p {
+  margin: 4px 0 0;
+  font-size: 0.95rem;
+}
+
+.college-footer {
+  background-color: #1b5e20;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-size: 0.85rem;
+}
