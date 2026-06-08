@@ -1,20 +1,24 @@
-<!-- Header -->
-<header class="college-header">
-  <div class="header-content">
-    <div class="logo-placeholder">
-      <span>ITCS</span>
+<div class="page-container">
+
+  <header class="college-header">
+    <div class="header-content">
+      <div class="logo-placeholder">
+        <span>ITCS</span>
+      </div>
+
+      <div class="college-info">
+        <h1>ITCS College</h1>
+        <p>Student Tuition Management Portal</p>
+      </div>
     </div>
+  </header>
 
-    <div class="college-info">
-      <h1>ITCS College</h1>
-      <p>Student Tuition Management Portal</p>
-    </div>
-  </div>
-</header>
+  <main class="page-content">
+    <router-outlet />
+  </main>
 
-<app-login></app-login>
+  <footer class="college-footer">
+    <p>© 2026 ITCS College</p>
+  </footer>
 
-<!-- Footer -->
-<footer class="college-footer">
-  <p>© 2026 ITCS College</p>
-</footer>
+</div>

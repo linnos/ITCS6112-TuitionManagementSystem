@@ -33,10 +33,19 @@
   font-size: 0.95rem;
 }
 
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-content {
+  flex: 1;
+}
+
 .college-footer {
   background-color: #1b5e20;
   color: white;
   text-align: center;
   padding: 8px;
-  font-size: 0.85rem;
 }
